@@ -1,6 +1,6 @@
 # Next.js  &&  WordPress Blog Website
 
-Next.Js as the front-end with WordPress as backend / Headless CMS to easily manage your content. This being done with Apollo client and GraphQL in order to consume WP as an endpoint. As a plus SASS and a Search box feature to quickly find out what you're looking.💻😉
+Next.Js as the front-end with WordPress as backend / Headless CMS to easily manage your content. This being done with Apollo client in order to query WP with GraphQL. As a plus SASS and a Search box feature to quickly find out what you're looking.💻😉
 
 ## ⚡️ Quick Start
 
@@ -28,26 +28,13 @@ WORDPRESS_GRAPHQL_ENDPOINT="http://wordpressite.com/graphql"
 
 The goal of this project is to take WordPress as a headless CMS and use Next.js to create a static experience without any 3rd party services that can be deployed anywhere.
 
-The hope is to build out as many features as we can to support what's typically expected from an out of the box theme on WordPress. Currently, those features include:
-* Blog (https://next-wordpress-starter.spacejelly.dev)
-* Pages (https://next-wordpress-starter.spacejelly.dev/about/)
-* Posts (https://next-wordpress-starter.spacejelly.dev/posts/how-to-create-a-headless-wordpress-blog-with-next-js-wordpress-starter/)
-* Categories (https://next-wordpress-starter.spacejelly.dev/categories/tutorial/)
-* Authors (https://next-wordpress-starter.spacejelly.dev/authors/colby-fayock/)
-* Search (Client side global navigation and https://next-wordpress-starter.spacejelly.dev/search/?q=wordpress)
-* RSS (https://next-wordpress-starter.spacejelly.dev/feed.xml)
-* Sitemap (https://next-wordpress-starter.spacejelly.dev/sitemap.xml)
 
 Additionally, the theme is expected to be SEO friendly and performant out of the box, including:
 * Unique page titles
 * Unique descriptions
 * Open Graph tags
 
-You can also optionally enable Yoast SEO plugin support to supercharge your SEO! (See below)
-
-Check out the [Issues](https://github.com/colbyfayock/next-wordpress-starter/issues) for what's on deck!
-
-*Want something a little more **basic**? Check out my other starter with an MVP setup to get up and running with WPGraphQL in WordPress: https://github.com/colbyfayock/next-wpgraphql-basic-starter*
+You can also optionally enable Yoast SEO plugin support to supercharge your SEO! 
 
 ### Requirements
 * [WordPress](https://wordpress.org/)
